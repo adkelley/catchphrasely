@@ -1,0 +1,25 @@
+{
+  "name": "Catchphrase.ly",
+  "version": "1.0.0",
+  "description": "An app for our favorite game Catchphrase!",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sf-wdi-18/Catchphrase.ly.git"
+  },
+  "author": "Alex Kelley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sf-wdi-18/Catchphrase.ly/issues"
+  },
+  "homepage": "https://github.com/sf-wdi-18/Catchphrase.ly"
+}

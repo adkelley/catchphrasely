@@ -1,0 +1,57 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(0,0,0, .1);
+}
+
+.con-body {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  padding-bottom: 200px;;
+}
+
+
+.cust-form {
+  background-color: rgba(0, 0, 0, .1);
+  padding: 10%;
+  width: 100%;
+}
+
+.cust-form .btn-primary {
+  margin-top: 7%;
+  width: 100%;
+  padding: 10px;
+  font-size: x-large;
+}
+
+.cust-form input, .cust-form textarea {
+  padding: 20px;
+  font-size: large;
+  border-radius: 0px;
+  margin-bottom: 5%;
+}
+
+#phrasesCon {
+  margin-top: 50px;
+}
+
+.phraseCon {
+  margin-top: 10px;
+}
+
+.phrase {
+  padding: 5%;
+  background-color: rgba(0, 0, 0, .1);
+}
+.phrase .phrase-definition, .phrase .phrase-phrase {
+  margin-top: 5%;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.phrase .btn-group {
+  margin-top: 5%;
+}
+
+.phrase .btn-group * {
+  margin-right: 10px;
+}
