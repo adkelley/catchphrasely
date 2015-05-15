@@ -5,7 +5,8 @@ var express = require("express"),
     app  = express(),
     path = require("path"),
     _    = require("underscore"),
-    bodyParser = require("body-parser");
+    bodyParser = require("body-parser"),
+    db = require("./models");
 
 // Config
 
