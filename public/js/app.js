@@ -12,7 +12,7 @@ $(function() {
       _(phrases).each(function (phrase) {
         console.log("phrase: ", phrase);
         var $phrase = $(phraseTempl(phrase));
-        $phrase.data("id", phrase.id);
+        $phrase.data("_id", phrase._id);
         console.log($phrase.data());
         $phrasesCon.append($phrase);
       });
@@ -36,7 +36,7 @@ $(function() {
         var $phrase = $(phraseTempl(data));
 
         // add id to $phrases
-        $phrase.data("id", data.id);
+        $phrase.data("_id", data._id);
         $phrasesCon.append($phrase);
         phrases.push(data);
       });
@@ -45,10 +45,10 @@ $(function() {
 
   $phrasesCon.on("click", ".phraseCon .delete", function (e) {
     var $phrase = $(this).closest(".phraseCon");
-    var id = $phrase.data("id");
-    console.log("DELETE", id);
+    var _id = $phrase.data("_id");
+    console.log("DELETE", _id);
     $.ajax({
-      url: "/phrases/" + id,
+      url: "/phrases/" + _id,
       type: "DELETE"
     }).done(function () {
       $phrase.remove();
